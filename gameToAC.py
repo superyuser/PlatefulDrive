@@ -12,8 +12,8 @@ import os
 ### == SET UP == 
 
 STEER_SENSITIVITY = 2
-LEFT_THRESHOLD = -0.2
-RIGHT_THRESHOLD = 0.2
+LEFT_THRESHOLD = -0.3
+RIGHT_THRESHOLD = 0.3
 
 ac = pac.ACCSharedMemory()
 cap = VideoStream(src=0).start()
